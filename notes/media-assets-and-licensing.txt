@@ -1,0 +1,52 @@
+All rights reserved
+    Creators of original work such as songs, books, or software release their work
+    under closed copyright protection. This means that, by default, they (or their publisher)
+    have exclusive rights to use (for example, display or distribute) their work.
+    If you want to use you need to fo one of the following:
+        - Obtain explicit, written permission from the copyright holder.
+        - Pay a license fee to use them
+            - One-time fee for unlimited use ("royalty-free")
+            - Rights-managed fee, in which you might have to pay specific fees per use
+            by time slots, geographic region, industry or media type, etc.
+            - Limit your uses to those that would be considered fair use or fair dealing in
+            your jurisdiction
+
+Authors are not required to include copyright notice or license terms with their work. Copyright
+exist automatically in an original work of authorship once it is created in a tangible medium. So if
+you find an image online and there are no copyright notices or license terms, the safest course is to
+assume it is protected by copyright with all rights reserved.
+
+Permissive
+    If the image is released under a permissive license, such as MIT, BSD, or a suitable Creative Commons(CC) license, 
+    you do not need to pay a license fee or seek permission to use it. Sill, there are various licensing conditions 
+    you will have to fulfill, which vary by license.
+    
+    For example: you might have to:
+        - Prove a link to the original source of the image and credit its creator.
+        - Indicate whether any changes were made to it.
+        - Share any derivative works created by using the image under the same license as the original.
+        - Not share any derivative works at all.
+        - Not use the image in any commercial work.
+        - Include a copy of the license along with any release that uses the image.
+
+You should consult the applicable license for the specific terms you will need to follow.
+
+Copyleft license (such as the GNU General Public License (GPL) or "Share Alike" Creative Commons licenses) stipulate that 
+derivative works need to be released under the same license as the original.
+
+Copyleft licenses are prominent in the software world. The basic idea is that a new project built with the code of a copyleft-licensed project
+(this is known as a "fork" of the original software) will also need to licensed under the same copyleft license. This ensures that the source code of the 
+new project will also be made available for others to study and modify. Note that, in general, licenses that were drafted for software, such as GPL, 
+are not considered to be good licenses for non-software works as they were not drafted with non-software works in mind.
+
+Public domain/CC0
+    Work released to the public domain is sometimes referred to as "no rights reserved" - no copyright applies to it, and it can be used without permission
+    and without having to fulfill any licensing conditions. Work can end up in the public domain by various means such as copyright expiration, or specifc waiving
+    of rights.
+
+    One of the most effective ways to place work in the public domain is to license it under CC0, a specific creative commons license thay
+    provides a clear and unambiguous legal tool for this purpose.
+
+    When using public domain images, obtain proof that the image is in the public domain and keep the proof for your records. For example, take a screenshot of the 
+    the original source with the licensing status clearly displayed, and consider adding a page to your website with a list of the images acquired along with their license 
+    requirements.

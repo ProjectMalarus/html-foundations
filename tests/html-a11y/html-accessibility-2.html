@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible HTML Test</title>
+    <link rel="stylesheet" href="stylesheets/html-accessibility-2.css">
+</head>
+<body>
+    <h1>Accessible HTML Tests</h1>
+
+    <h2>HTML accessibility 2</h2>
+    <form>
+        <div>
+            <li>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="Name">
+            </li>
+            
+            <li>
+                <label for="age">Age: </label>
+                <input type="text" id="name" name="Age">
+            </li>
+            
+            <li>
+                <label for="email">Email address: </label>
+            <input type="text" id="email" name="Email">
+            </li>
+        </div>
+    </form>
+
+
+    <!--Solution:
+    <form>
+        <fieldset>
+            <legend>Personal data</legend>
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </li>
+                <li>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" />
+                </li>
+                <li>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" />
+                </li>
+            </ul>
+        </fieldset>
+</form>
+    -->
+</body>
+</html>

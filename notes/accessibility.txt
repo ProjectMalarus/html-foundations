@@ -1,0 +1,33 @@
+Accessibility for people with cognitive impairments include:
+    - Deliver content in various forms
+        - Text-to-speech
+    - Easily understood content
+        - E.g: Text written using plain-language standards
+    - Focus attention on important content
+    - Minimizing distractions
+    - Consistent webpage layout and navigation
+    - Familiar elements, such as underlined links blur when not 
+    visited and purple when visited
+    - Dividing processes into logical essential steps with progress indicators
+    - Website authentication as easy as possible without compromising security
+    - Making forms easy to complete, such as with clear error messages and simple error recovery
+
+Accessibility guidelines and the law
+    - The W3C has published a large and very detail document that includes very precise, technology-agnostic
+    criteria for accessibility conformance. These are called Web Content Accessibility Guidelines.
+
+Accessibility APIs
+    - Windows: MSAA/IAccessible, UIAExpress, IAccessible2
+    - macOS: NSAccessibility
+    - Linux: AT-SPI
+    - Android: Accessibility framework
+    - iOS: UIAccessibility
+
+Accessibility tools
+    - Test source order
+        Assistive technologies read website content based on the order of the source, and disabled people often modify or turn off parts of the CSS to make content more legible.
+    - Content constrst checkers
+        Make sure that the text color contrasts well with the background color.
+    Screen readers
+        One of the most common types of assistive technology that disabled people use
+        

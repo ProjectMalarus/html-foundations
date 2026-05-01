@@ -1,0 +1,23 @@
+The <form> element
+ - action: Contains a path to the page that we want to send the submitted form data to, to be processed.
+ Later on, after you submit the form, you'll see /submit_page included in the URL.
+
+ - method: Specifies the data transmission method you want to use for sending the form data to the server.
+ The get value causes the data to be sent as parameters attached to the end of the URL.
+
+ - fieldset: Used for grouping elements together, useful in complex forms (e.g. grouping multiple checkboxes and radio buttons)
+
+ <input> elements
+ - type: Specifies the type of form control to create. There are many different types of form controls,
+ from simple text fields of different types to radio buttons, checkboxes, and more. Type 'text' renders a
+ basic text field that can accept any value.
+
+ - name: Specifies a name for the data item. When the form is submitted, the data is sent in name/value pairs.
+ In each case, the name is equal to this 'name' attribute value, and the value is equal to the text entered
+ in the text field.
+
+ - id: Specifies an ID that can be used to identify the element. In this case, it is used to associate the form
+ control with its <label>.
+
+ - required: Specifies that a value has to be entered into the form element before the form can be submiited.
+ This should only be set on inputs that you require, not on optional fields.

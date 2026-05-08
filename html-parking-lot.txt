@@ -12,3 +12,4 @@ Articles
     The GET Method (https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data#the_get_method)
     Content Delivery Network (https://developer.mozilla.org/en-US/docs/Glossary/CDN)
     Accessibility tools (https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling)
+    Client-side validation (https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation)

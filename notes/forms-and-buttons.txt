@@ -21,3 +21,7 @@ The <form> element
 
  - required: Specifies that a value has to be entered into the form element before the form can be submiited.
  This should only be set on inputs that you require, not on optional fields.
+
+ Some input types don't get their value from text entered into a field (e.g. color pickers and radio buttons).
+ In that case you need to provide the value that would be submitted if it is selected inside a specific value
+ attribute.

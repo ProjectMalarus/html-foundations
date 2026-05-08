@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Buttons Tests</title>
+</head>
+<body>
+    <form>
+        <h3>Forms and buttons 1</h3>
+        <ul>
+            <li>
+                <label for="userid">User ID</label>
+                <input type="text" name="userid" id="userid" required />
+            </li>
+
+            <li>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" required />
+            </li>
+
+            <li>
+                <button>Log In</button>
+            </li>
+        </ul>
+    </form>
+
+    <form>
+        <h3>Forms and buttons 2</h3>
+        <fieldset>
+            <legend>Who is your favorite pony?</legend>
+
+            <ul>
+                <li>
+                    <label for="ponyChoice1">Pinkie Pie</label>
+                    <input type="radio" name="pony" value="pinkie pie" id="ponyChoice1" checked />
+                </li>
+
+                <li>
+                    <label for="ponyChoice2">Rainbow Dash</label>
+                    <input type="radio" name="pony" value="rainbow dash" id="ponyChoice2" />
+                </li>
+
+                <li>
+                    <label for="ponyChoice3">Twilight Sparkle</label>
+                    <input type="radio" name="pony" value="twilight sparkle" id="ponyChoice3" />
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hotdog preferences</legend>
+
+            <ul>
+                <li>
+                    <label for="hotdog1">Vegan</label>
+                    <input type="radio" name="hotdog" value="vegan" id="hotdog1" checked />
+                </li>
+
+                <li>
+                    <label for="hotdog2">Onion</label>
+                    <input type="radio" name="hotdog" value="onion" id="hotdog2" />
+                </li>
+
+                <li>
+                    <label for="hotdog3">Bacon-wrapped</label>
+                    <input type="radio" name="hotdog" value="bacon-wrapped" id="hotdog3" />
+                </li>
+
+                <li>
+                    <label for="hotdog4">Sauerkraut</label>
+                    <input type="radio" name="hotdog" value="sauerkraut" id="hotdog4" />
+                </li>
+            </ul>
+        </fieldset>
+        <button>Submit</button>
+    </form>
+
+    <form>
+        <h3>Forms and buttons 3</h3>
+        <h4>Edit your preferences</h4>
+
+        <ul>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required />
+            </li>
+
+            <li>
+                <label for="website">Website:</label>
+                <input type="url" name="website" id="website" required />
+            </li>
+            
+            <li>
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone" required />
+            </li>
+
+            <li>
+                <label for="fave-color">Favorite color:</label>
+                <input type="color" name="color" id="fave-color" required />
+            </li>
+
+            <li>
+                <button>Update preferences</button>
+            </li>
+        </ul>
+    </form>
+
+    <form>
+        <h3>Forms and buttons 4</h3>
+
+        <ul>
+            <li>
+                <label for="food">Pick your favorite food:</label>
+
+                <select name="food" id="food">
+                    <option value="">--Please choose an option--</option>
+                    <option value="salad">Salad</option>
+                    <option value="curry">Curry</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="fajitas">Fajitas</option>
+                    <option value="biscuits">Biscuits</option>
+                    <option value="crisps">Crisps</option>
+                    <option value="fruit">Fruit</option>
+                    <option value="breadsticks">Breadsticks</option>
+                </select>
+            </li>
+            <li>
+                <button>Submit choice</button>
+            </li>
+        </ul>
+    </form>
+
+    <form>
+        <h3>Forms and buttons 5</h3>
+
+        <fieldset>
+            <legend>Personal details</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required />
+        </fieldset>
+
+        <fieldset>
+            <legend>Comment information</legend>
+
+            <label for="comment">Comment:</label>
+            <input type="text" name="comment" id="comment" />
+
+            <label for="email">Email (include if you want a reply):</label>
+            <input type="email" name="email" id="email" />
+        </fieldset>
+    </form>
+
+    <form>
+        <h3>Forms and buttons 6</h3>
+        <h4>Enter your support query</h4>
+
+        <ul>
+            <li>
+                <label for="uname">User name:</label>
+                <input type="text" name="uname" id="uname" minlength="5" maxlength="20" required />
+            </li>
+            <li>
+                <label for="email">Email address:</label>
+                <input type="email" name="email" id="email" required />
+            </li>
+            <li>
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone" maxlength="15" required />
+            </li>
+            <li>
+                <label for="comment">Comment:</label>
+                <textarea name="comment" id="comment" maxlength="200"> </textarea>
+            </li>
+            <li>
+                <button>Submit comment</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
